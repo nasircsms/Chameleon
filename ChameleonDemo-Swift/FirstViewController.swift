@@ -59,7 +59,7 @@ class FirstViewController: UITableViewController {
         let randomFlatColorContract = ContrastColorOf(randomFlatColor(), returnFlat: true)
         // Nav bar
         navigationController?.navigationBar.barTintColor = randomFlatColor()
-        navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: randomFlatColorContract]
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: randomFlatColorContract]
         // Tab bar
         tabBarController?.tabBar.barTintColor = randomFlatColor()
         tabBarController?.tabBar.tintColor = randomFlatColorContract
